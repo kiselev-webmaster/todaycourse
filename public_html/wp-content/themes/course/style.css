@@ -1,0 +1,34 @@
+/*!
+Theme Name: Шаблон для разработки
+Author: Киселев Денис
+Author URI: https://kiselev-webmaster.ru/
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,600;1,700&display=swap');
+body{
+	background: #fafafa;
+	font-family: 'Roboto Mono', monospace;
+}
+.container{
+	max-width: 70vw;
+	height: 100vh;
+	margin: 20px auto;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+}
+header{
+	padding: 20px;
+	background: #eff6ff;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo{
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	background: #72aee6;
+}
+.todayCourse{
+	color: #444;
+}
